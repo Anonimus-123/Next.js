@@ -20,3 +20,208 @@
     "typescript": "4.5.5"
   }
 }
+const presidentesHonduras = [
+  {
+    nombre: "Porfirio Lobo Sosa",
+    periodo: "2010-presente",
+    partido: "Partido Nacional de Honduras (PNH)",
+    notas: "Su mandato ha sido marcado por esfuerzos para mejorar la seguridad y el desarrollo económico en el país.",
+    biografia: {
+      nacimiento: "22 de diciembre de 1947, Trujillo, Colón, Honduras",
+      educacion: "Agrónomo de profesión, con estudios en administración de empresas en Estados Unidos.",
+      carreraPolitica: "Fue presidente del Congreso Nacional de Honduras entre 2002 y 2006.",
+      logros: "Implementación de políticas de seguridad y desarrollo económico."
+    }
+  },
+  {
+    nombre: "José Manuel Zelaya",
+    periodo: "2005-2009",
+    partido: "Partido Liberal de Honduras (PLH)",
+    notas: "Zelaya fue removido del cargo en junio de 2009, 6 meses antes de terminar su mandato.",
+    biografia: {
+      nacimiento: "20 de septiembre de 1952, Catacamas, Olancho, Honduras",
+      educacion: "Ingeniero agrónomo.",
+      carreraPolitica: "Ministro de Inversiones Públicas antes de ser presidente.",
+      logros: "Promoción de políticas de inclusión social y el intento de reformar la constitución."
+    }
+  },
+  {
+    nombre: "Ricardo Maduro Joest",
+    periodo: "2002-2006",
+    partido: "Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "20 de abril de 1946, Panamá",
+      educacion: "Graduado en economía de la Universidad de Stanford.",
+      carreraPolitica: "Presidente del Banco Central de Honduras antes de ser presidente.",
+      logros: "Enfocado en la reforma educativa y la seguridad nacional."
+    }
+  },
+  {
+    nombre: "Carlos Roberto Flores Facussé",
+    periodo: "1998-2002",
+    partido: "Partido Liberal de Honduras (PLH)",
+    biografia: {
+      nacimiento: "10 de marzo de 1950, Tegucigalpa, Honduras",
+      educacion: "Graduado en Ingeniería Industrial y Economía de la Universidad Estatal de Luisiana.",
+      carreraPolitica: "Presidente del Congreso Nacional de Honduras antes de ser presidente.",
+      logros: "Impulsó reformas económicas y sociales, así como la reconstrucción tras el Huracán Mitch."
+    }
+  },
+  {
+    nombre: "Carlos Roberto Reina Idiáquez",
+    periodo: "1994-1998",
+    partido: "Partido Liberal de Honduras (PLH)",
+    biografia: {
+      nacimiento: "13 de marzo de 1926, Tegucigalpa, Honduras",
+      educacion: "Abogado de profesión.",
+      carreraPolitica: "Presidente de la Corte Suprema de Justicia antes de ser presidente.",
+      logros: "Reformas en el sistema judicial y promoción de derechos humanos."
+    }
+  },
+  {
+    nombre: "Rafael Leonardo Callejas Romero",
+    periodo: "1990-1994",
+    partido: "Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "14 de noviembre de 1943, Tegucigalpa, Honduras",
+      educacion: "Graduado en Economía Agrícola de la Universidad Estatal de Misisipi.",
+      carreraPolitica: "Ministro de Recursos Naturales antes de ser presidente.",
+      logros: "Reformas económicas enfocadas en la liberalización del mercado y la privatización de empresas estatales."
+    }
+  },
+  {
+    nombre: "José Azcona Hoyo",
+    periodo: "1986-1990",
+    partido: "Partido Liberal de Honduras (PLH)",
+    biografia: {
+      nacimiento: "26 de enero de 1927, La Ceiba, Atlántida, Honduras",
+      educacion: "Ingeniero industrial.",
+      carreraPolitica: "Ministro de Comunicaciones, Obras Públicas y Transporte antes de ser presidente.",
+      logros: "Estabilidad política y fortalecimiento de la democracia."
+    }
+  },
+  {
+    nombre: "Roberto Suazo Córdova",
+    periodo: "1982-1986",
+    partido: "Partido Liberal de Honduras (PLH)",
+    biografia: {
+      nacimiento: "17 de marzo de 1927, La Paz, Honduras",
+      educacion: "Médico cirujano.",
+      carreraPolitica: "Diputado en el Congreso Nacional antes de ser presidente.",
+      logros: "Establecimiento de programas de desarrollo económico y social."
+    }
+  },
+  {
+    nombre: "Policarpo Paz García",
+    periodo: "1978-1980",
+    partido: "Junta Militar",
+    biografia: {
+      nacimiento: "7 de diciembre de 1932, La Arada, Santa Bárbara, Honduras",
+      carreraMilitar: "General de las Fuerzas Armadas de Honduras.",
+      logros: "Transición del poder militar a un gobierno civil."
+    }
+  },
+  {
+    nombre: "Juan Alberto Melgar Castro",
+    periodo: "1975-1978",
+    partido: "Militar",
+    biografia: {
+      nacimiento: "26 de junio de 1930, Marcala, La Paz, Honduras",
+      carreraMilitar: "General de las Fuerzas Armadas de Honduras.",
+      logros: "Gobernó durante el periodo militar y mantuvo el control del gobierno."
+    }
+  },
+  {
+    nombre: "Oswaldo López Arellano",
+    periodo: "1972-1975, 1963-1971",
+    partido: "Junta Militar / Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "30 de junio de 1921, Danlí, El Paraíso, Honduras",
+      carreraMilitar: "General de las Fuerzas Armadas de Honduras.",
+      logros: "Gobernó en dos periodos diferentes, ambos como líder militar."
+    }
+  },
+  {
+    nombre: "Ramón Ernesto Cruz",
+    periodo: "1971-1972",
+    partido: "Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "4 de enero de 1903, San Juan de Flores, Francisco Morazán, Honduras",
+      educacion: "Médico de profesión.",
+      carreraPolitica: "Diputado y presidente del Congreso Nacional.",
+      logros: "Breve mandato marcado por inestabilidad política."
+    }
+  },
+  {
+    nombre: "Ramón Villeda Morales",
+    periodo: "1957-1963",
+    partido: "Partido Liberal de Honduras (PLH)",
+    biografia: {
+      nacimiento: "26 de noviembre de 1908, Ocotepeque, Honduras",
+      educacion: "Médico de profesión.",
+      carreraPolitica: "Diputado y líder del Partido Liberal.",
+      logros: "Implementación de reformas sociales y económicas."
+    }
+  },
+  {
+    nombre: "Roque Rodríguez",
+    periodo: "1956-1957",
+    partido: "Junta Militar",
+    biografia: {
+      carreraMilitar: "Miembro de la Junta Militar que gobernó durante la transición a un gobierno civil.",
+      logros: "Supervisó la transición del gobierno militar al civil."
+    }
+  },
+  {
+    nombre: "Julio Lozano Díaz",
+    periodo: "1954-1956",
+    partido: "Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "27 de marzo de 1885, Tegucigalpa, Honduras",
+      educacion: "Abogado y periodista.",
+      carreraPolitica: "Vicepresidente y presidente interino antes de ser presidente.",
+      logros: "Modernización de la infraestructura y promoción del desarrollo económico."
+    }
+  },
+  {
+    nombre: "Juan Manuel Gálvez",
+    periodo: "1949-1954",
+    partido: "Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "10 de junio de 1887, Tegucigalpa, Honduras",
+      educacion: "Abogado.",
+      carreraPolitica: "Ministro de Gobernación antes de ser presidente.",
+      logros: "Desarrollo de la infraestructura y promoción de la educación."
+    }
+  },
+  {
+    nombre: "Tiburcio Carías Andino",
+    periodo: "1933-1949",
+    partido: "Partido Nacional de Honduras (PNH)",
+    biografia: {
+      nacimiento: "15 de marzo de 1876, Tegucigalpa, Honduras",
+      educacion: "Abogado y militar.",
+      carreraPolitica: "Gobernador de Tegucigalpa y líder del Partido Nacional.",
+      logros: "Estabilidad política y desarrollo económico durante su largo mandato."
+    }
+  },
+  {
+    nombre: "Vicente Mejía Colindres",
+    periodo: "1929-1933",
+    partido: "Partido Liberal de Honduras (PLH)",
+    biografia: {
+      nacimiento: "6 de abril de 1878, Tegucigalpa, Honduras",
+      educacion: "Abogado.",
+      carreraPolitica: "Diputado y ministro antes de ser presidente.",
+      logros: "Reformas sociales y educativas."
+    }
+  }
+];
+`` |oai:code-citation|
+# Saving the JavaScript content to a file
+file_path = "/mnt/data/presidentes_honduras.js"
+
+with open(file_path, "w") as file:
+    file.write(js_content)
+
+file_path
